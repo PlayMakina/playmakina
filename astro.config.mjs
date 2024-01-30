@@ -6,5 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://playmakina.github.io',
+	base: '/playmakina',
 	integrations: [mdx(), sitemap()],
 });
