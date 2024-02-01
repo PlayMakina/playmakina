@@ -1,4 +1,5 @@
 ---
+import { SEO } from "astro-seo";
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
@@ -14,6 +15,33 @@ const posts = (await getCollection('blog')).sort(
 <!doctype html>
 <html lang="en">
 	<head>
+		<SEO
+			title="Play Makina"
+			description="playmakina playmaquina videojuegos gaming el ultimo tren a casa Malak Alami Renpy "
+			openGraph={{
+				basic: {
+				title: "Play Makina",
+				type: "A type.",
+				image: "https://www.playmakina.com/logo-letters.jpg",
+				}
+			}}
+			twitter={{
+				creator: "@playmakina"
+			}}
+			extend={{
+				// extending the default link tags
+				link: [{ rel: "icon", href: "/favicon.png" }],
+				// extending the default meta tags
+				meta: [
+				{
+					name: "twitter:image",
+					content: "https://www.playmakina.com/logo-letters.jpg",
+				},
+				{ name: "twitter:title", content: "playmakina" },
+				{ name: "twitter:description", content: "Agent" },
+				],
+			}}
+		/>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
 			main {
