@@ -53,7 +53,7 @@
   }
   
   [data-theme="dark"] {
-	--accent: #2337ff;
+	--accent: #36cbffff;
 	--accent-dark: #000d8a;
 	--black: 256, 256, 256;
 	--white: black;
