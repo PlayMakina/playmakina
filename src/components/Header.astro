@@ -2,16 +2,23 @@
 import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 import Toggle from './ThemeChange.astro';
+import LanguagePicker from '../components/LanguagePicker.astro';
+
+//Translation tools:
+import { getLangFromUrl, useTranslations } from '../i18n/utils';
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
 <header>
 	<nav>
-		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<h2><a href={`/${lang}/`}>{SITE_TITLE}</a></h2>
 		<div class="internal-links">
-			<HeaderLink href="/">Blog</HeaderLink>
-			<HeaderLink href="/about">About</HeaderLink>
+			<HeaderLink href={`/${lang}/`}>Blog</HeaderLink>
+			<HeaderLink href={`/${lang}/about/`}>{t('nav.about')}</HeaderLink>
 		</div>
 		<div class="social-links">
+			<LanguagePicker />
 			<Toggle />
 			<a href="https://www.instagram.com/playmakina/" target="_blank">
 				<span class="sr-only">Follow PM on Instagram</span>
