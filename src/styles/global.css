@@ -121,6 +121,8 @@ h3,
 h4,
 h5,
 h6 {
+	font-size: 0.67em;
+	font-weight: bold;
 	margin: 0 0 0.5rem 0;
 	color: rgb(var(--black));
 	line-height: 1.2;
@@ -219,4 +221,7 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+.hidden {
+	display: none;
 }
