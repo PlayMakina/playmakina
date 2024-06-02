@@ -110,6 +110,7 @@ body {
 	line-height: 1.7;
 }
 main {
+	box-sizing: content-box;
 	width: 720px;
 	max-width: calc(100% - 2em);
 	margin: auto;
@@ -203,6 +204,11 @@ hr {
 	main {
 		padding: 1em;
 	}
+}
+@media (min-width: 721px) {
+	main{
+		display: block !important;
+	}	
 }
 
 .sr-only {

@@ -21,7 +21,7 @@ const t = useTranslations(lang);
 		</div>
 		<div class="hidden menu-mobile">
 			<Astronav>
-				<div class="flex justify-between">
+				<div id="menu-button" class="flex justify-between">
 					<MenuIcon class="w-12 h-12" />
 				</div>
 			</Astronav>
@@ -147,7 +147,7 @@ const t = useTranslations(lang);
 	@media (min-width: 721px) {
 		.astronav-items{
 			display:none;
-		}	
+		}
 	}
 	
 .hidden {
@@ -159,3 +159,15 @@ const t = useTranslations(lang);
 }
 </style>
 
+<script>
+	document.getElementById("menu-button")!.addEventListener("click", hideShowMain);
+	function hideShowMain() {
+		const collection = document.getElementsByClassName("astronav-items");
+		const main = document.getElementsByTagName("main");
+		if (collection[0].classList.contains("hidden")) {
+			main[0].classList.remove("hidden");
+    	} else {
+			main[0].classList.add("hidden");
+	  	}
+	}
+</script>
