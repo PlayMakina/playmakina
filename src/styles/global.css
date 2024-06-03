@@ -7,6 +7,8 @@
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
+	--accent-light: #7681ff;
+	--accent-gray: rgb(214, 214, 214);
 	--black: 15, 18, 25;
 	--white: white;
 	--gray: 96, 115, 159;
@@ -31,6 +33,8 @@
 [data-theme="light"] {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
+	--accent-light: #1c2cda;
+	--accent-gray: rgb(214, 214, 214);
 	--black: 15, 18, 25;
 	--white: white;
 	--gray: 96, 115, 159;
@@ -55,6 +59,8 @@
   [data-theme="dark"] {
 	--accent: #36cbffff;
 	--accent-dark: #000d8a;
+	--accent-light: rgb(91, 211, 255);
+	--accent-gray: rgb(24, 24, 24);
 	--black: 256, 256, 256;
 	--white: black;
 	--gray: 96, 115, 159;

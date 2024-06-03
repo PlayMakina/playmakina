@@ -70,14 +70,39 @@ const t = useTranslations(lang);
 		</div>
 	</nav>
 	<hr class="menu-separator">
-	<MenuItems class="hidden justify-center text-center lg:flex">
-		<ul class="internal-links">
-			<li><HeaderLink href={`/${lang}/`}>Podcast</HeaderLink></li>
-			<li><HeaderLink href={`/${lang}/about/`}>{t('nav.about')}</HeaderLink></li>
+	<MenuItems class="menu-mobile-container hidden justify-center text-center lg:flex">
+		<ul class="internal-links w-full">
+			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/`}>Podcast</HeaderLink></li>
+			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/about/`}>{t('nav.about')}</HeaderLink></li>
 		</ul>
 	</MenuItems>
 </header>
 <style>
+	.menu-item{
+		padding: 0.75em !important;
+		width: 100%;
+		border-bottom: 0px solid transparent !important;
+		border-radius: 0.25rem;
+	}
+	.menu-item.active{
+		color: var(--white);
+		background-color: var(--accent);
+	}
+	.menu-item.active:hover{
+		color: var(--white);
+		background-color: var(--accent-light);
+	}
+	.menu-item:hover{
+		color: var(--nav-text);
+		background-color: var(--accent-gray);
+	}
+	.menu-item-container{
+		padding: 0.15em;
+	}
+	.menu-mobile-container{
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
 	.menu-separator{
 		color: var(--black);
 	}
