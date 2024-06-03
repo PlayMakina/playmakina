@@ -3,6 +3,8 @@ import HeaderLink from './HeaderLink.astro';
 import { SITE_TITLE } from '../consts';
 import Toggle from './ThemeChange.astro';
 import LanguagePicker from '../components/LanguagePicker.astro';
+import { Astronav, MenuItems, MenuIcon, Dropdown, DropdownItems, DropdownSubmenu } from "astro-navbar";
+
 
 //Translation tools:
 import { getLangFromUrl, useTranslations } from '../i18n/utils';
@@ -10,17 +12,25 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 ---
 
-<header>
+<header class="sticky">
 	<nav>
 		<h2><a href={`/${lang}/`}>{SITE_TITLE}</a></h2>
-		<div class="internal-links">
+		<div class="menu-pc internal-links">
 			<HeaderLink href={`/${lang}/`}>Podcast</HeaderLink>
 			<HeaderLink href={`/${lang}/about/`}>{t('nav.about')}</HeaderLink>
 		</div>
+		<div class="hidden menu-mobile">
+			<Astronav>
+				<div id="menu-button" class="flex justify-between">
+					<MenuIcon class="w-12 h-12" />
+				</div>
+			</Astronav>
+		</div>
+
 		<div class="social-links">
 			<LanguagePicker />
 			<Toggle />
-			<a href="https://www.instagram.com/playmakina/" target="_blank">
+			<!--a href="https://www.instagram.com/playmakina/" target="_blank">
 				<span class="sr-only">Follow PM on Instagram</span>
 				<svg
 					viewBox="0 0 24 24" 
@@ -48,19 +58,60 @@ const t = useTranslations(lang);
 					</path>
 				</svg>
 			</a>	
-			<a rel="me" href="https://mastodon.social/@playmakina">
+			<a rel="me" href="https://mastodon.social/@playmakina" target="_blank">
 				<span class="sr-only">Follow PM on Mastodon</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32"
 					><path
 						fill="currentColor"
 						d="M11.19 12.195c2.016-.24 3.77-1.475 3.99-2.603.348-1.778.32-4.339.32-4.339 0-3.47-2.286-4.488-2.286-4.488C12.062.238 10.083.017 8.027 0h-.05C5.92.017 3.942.238 2.79.765c0 0-2.285 1.017-2.285 4.488l-.002.662c-.004.64-.007 1.35.011 2.091.083 3.394.626 6.74 3.78 7.57 1.454.383 2.703.463 3.709.408 1.823-.1 2.847-.647 2.847-.647l-.06-1.317s-1.303.41-2.767.36c-1.45-.05-2.98-.156-3.215-1.928a3.614 3.614 0 0 1-.033-.496s1.424.346 3.228.428c1.103.05 2.137-.064 3.188-.189zm1.613-2.47H11.13v-4.08c0-.859-.364-1.295-1.091-1.295-.804 0-1.207.517-1.207 1.541v2.233H7.168V5.89c0-1.024-.403-1.541-1.207-1.541-.727 0-1.091.436-1.091 1.296v4.079H3.197V5.522c0-.859.22-1.541.66-2.046.456-.505 1.052-.764 1.793-.764.856 0 1.504.328 1.933.983L8 4.39l.417-.695c.429-.655 1.077-.983 1.934-.983.74 0 1.336.259 1.791.764.442.505.661 1.187.661 2.046v4.203z"
-					></path></svg
-				>
-			</a>
+					></path>
+				</svg>
+			</a-->
 		</div>
 	</nav>
+	<hr class="menu-separator">
+	<MenuItems class="menu-mobile-container hidden justify-center text-center lg:flex">
+		<ul class="internal-links w-full">
+			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/`}>Podcast</HeaderLink></li>
+			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/about/`}>{t('nav.about')}</HeaderLink></li>
+		</ul>
+	</MenuItems>
 </header>
 <style>
+	.menu-item{
+		padding: 0.75em !important;
+		width: 100%;
+		border-bottom: 0px solid transparent !important;
+		border-radius: 0.25rem;
+	}
+	.menu-item.active{
+		color: var(--white);
+		background-color: var(--accent);
+	}
+	.menu-item.active:hover{
+		color: var(--white);
+		background-color: var(--accent-light);
+	}
+	.menu-item:hover{
+		color: var(--nav-text);
+		background-color: var(--accent-gray);
+	}
+	.menu-item-container{
+		padding: 0.15em;
+	}
+	.menu-mobile-container{
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	.menu-separator{
+		color: var(--black);
+	}
+	.justify-center{
+		justify-content: center;
+	}
+	.menu-mobile{
+		margin: 0.40em;
+	}
 	.internal-links{
 		font-family: 'Atkinson', sans-serif;
 	}
@@ -70,6 +121,13 @@ const t = useTranslations(lang);
 		padding: 0 1em;
 		background: var(--white);
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+	}
+	.sticky {
+		position: -webkit-sticky; /* Safari */
+		position: sticky;
+		top: 0;
+		width: 100%;
+		z-index: 1;
 	}
 	h2 {
 		margin: 0;
@@ -103,5 +161,38 @@ const t = useTranslations(lang);
 		.social-links {
 			display: none;
 		}
+		.menu-pc {
+			display: none;
+		}
+		.menu-mobile {
+			display: block !important;
+		}
 	}
+	
+	@media (min-width: 721px) {
+		.astronav-items{
+			display:none;
+		}
+	}
+	
+.hidden {
+	display: none;
+}
+.bold-font {
+	font-weight: bold;
+	color: rgb(var(--black)) !important;
+}
 </style>
+
+<script>
+	document.getElementById("menu-button")!.addEventListener("click", hideShowMain);
+	function hideShowMain() {
+		const collection = document.getElementsByClassName("astronav-items");
+		const main = document.getElementsByTagName("main");
+		if (collection[0].classList.contains("hidden")) {
+			main[0].classList.remove("hidden");
+    	} else {
+			main[0].classList.add("hidden");
+	  	}
+	}
+</script>
