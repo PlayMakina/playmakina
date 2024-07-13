@@ -139,7 +139,7 @@ const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) ==
 			<section>
 				<ul>
 					{
-						posts.map((post) => (
+						posts.filter(post => post.data.section === 'podcast').map((post) => (
 							<li>
 								<a href={`/${post.slug}/`} class="container">
 									<img width={720} height={360} src={post.data.heroImage} alt="" />

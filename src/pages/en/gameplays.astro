@@ -14,14 +14,15 @@ const lang = getLangFromUrl(Astro.url);
 const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) === lang).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="en">
 	<head>
 		<SEO
 			title="Play Makina"
-			description="Tu desarrolladora de videojuegos favorita: actualizaiones, descargas, podcast.."
+			description="Indie videogame developer: podcasts, games, music, artwork.."
 			openGraph={{
 				basic: {
 				title: "Play Makina",
@@ -138,18 +139,18 @@ const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) ==
 			<section>
 				<ul>
 					{
-						posts.filter(post => post.data.section === 'podcast').map((post) => (
-						<li>
-							<a href={`/${post.slug}/`} class="container">
-								<img width={720} height={360} src={post.data.heroImage} alt="" />
-								<div class="centered">
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</div>
-							</a>
-						</li>
+						posts.filter(post => post.data.section === 'gameplay').map((post) => (
+							<li>
+								<a href={`/${post.slug}/`} class="container">
+									<img width={720} height={360} src={post.data.heroImage} alt="" />
+									<div class="centered">
+										<h4 class="title">{post.data.title}</h4>
+										<p class="date">
+											<FormattedDate date={post.data.pubDate} />
+										</p>
+									</div>
+								</a>
+							</li>
 						))
 					}
 				</ul>
