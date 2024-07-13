@@ -16,9 +16,9 @@ const t = useTranslations(lang);
 	<nav>
 		<h2><a href={`/${lang}/`}>{SITE_TITLE}</a></h2>
 		<div class="menu-pc internal-links">
-			<HeaderLink href={`/${lang}/podcast/`}>Podcast</HeaderLink>
-			<HeaderLink href={`/${lang}/gameplays/`}>Gameplays</HeaderLink>
-			<HeaderLink href={`/${lang}/`}>{t('nav.about')}</HeaderLink>
+			<HeaderLink href={`/${lang}/podcast/`}>&#127908; Podcast</HeaderLink>
+			<HeaderLink href={`/${lang}/gameplays/`}>&#127918; Gameplays</HeaderLink>
+			<HeaderLink href={`/${lang}/`}>&#128152; {t('nav.about')}</HeaderLink>
 		</div>
 		<div class="hidden menu-mobile">
 			<Astronav>
@@ -73,9 +73,9 @@ const t = useTranslations(lang);
 	<hr class="menu-separator">
 	<MenuItems class="menu-mobile-container hidden justify-center text-center lg:flex">
 		<ul class="internal-links w-full">
-			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/podcast/`}>Podcast</HeaderLink></li>
-			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/gameplays/`}>Gameplays</HeaderLink></li>
-			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/`}>{t('nav.about')}</HeaderLink></li>
+			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/podcast/`}>&#127908; Podcast</HeaderLink></li>
+			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/gameplays/`}>&#127918; Gameplays</HeaderLink></li>
+			<li class="menu-item-container"><HeaderLink class="menu-item" href={`/${lang}/`}>&#128152; {t('nav.about')}</HeaderLink></li>
 		</ul>
 	</MenuItems>
 </header>
