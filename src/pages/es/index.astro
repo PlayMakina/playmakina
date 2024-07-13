@@ -1,6 +1,36 @@
 ---
 import Layout from '../../layouts/BlogPost.astro';
+import { SEO } from "astro-seo";
 ---
+<head>
+	<SEO
+		title="Play Makina"
+		description="Tu desarrolladora de videojuegos favorita :D  Juegos, Podcast, Música & Arte.."
+		openGraph={{
+			basic: {
+			title: "Play Makina",
+			type: "A type.",
+			image: "https://www.playmakina.com/logo-PM.jpg",
+			}
+		}}
+		twitter={{
+			creator: "@playmakina"
+		}}
+		extend={{
+			// extending the default link tags
+			link: [{ rel: "icon", href: "/favicon.png" }],
+			// extending the default meta tags
+			meta: [
+			{
+				name: "twitter:image",
+				content: "https://www.playmakina.com/logo-PM.jpg",
+			},
+			{ name: "twitter:title", content: "playmakina" },
+			{ name: "twitter:description", content: "Agent" },
+			],
+		}}
+	/>
+</head>
 
 <Layout
 	title="Sobre nosotros"
