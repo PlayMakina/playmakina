@@ -14,7 +14,7 @@ const t = useTranslations(lang);
 
 <header class="sticky">
 	<nav>
-		<h2><a href={`/${lang}/`}>{SITE_TITLE}</a></h2>
+		<h2><a href={`/${lang}/`}><img id="title-img" src="/public/title-light.png" alt={SITE_TITLE}></a></h2>
 		<div class="menu-pc internal-links">
 			<HeaderLink href={`/${lang}/podcast/`}>&#127908; Podcast</HeaderLink>
 			<HeaderLink href={`/${lang}/gameplays/`}>&#127918; Gameplays</HeaderLink>
@@ -206,4 +206,6 @@ const t = useTranslations(lang);
 			main[0].classList.add("hidden");
 	  	}
 	}
+
+
 </script>

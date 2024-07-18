@@ -145,6 +145,7 @@ input:checked + .slider .feather-sun {
       // If the current theme is dark, check the theme toggle
       if (currentTheme === "dark") {
         themeToggle.checked = true;
+        document.getElementById("title-img").src="/public/title-dark.png"; //Change title logo
       }
     }
 
@@ -153,9 +154,11 @@ input:checked + .slider .feather-sun {
       if (e.target.checked) {
         document.documentElement.setAttribute("data-theme", "dark");
         localStorage.setItem("theme", "dark");
+        document.getElementById("title-img").src="/public/title-dark.png";
       } else {
         document.documentElement.setAttribute("data-theme", "light");
         localStorage.setItem("theme", "light");
+        document.getElementById("title-img").src="/public/title-light.png";
       }
     }
 

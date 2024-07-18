@@ -27,7 +27,7 @@
 	--block-quote-text: #222;
 	--slider-bg: #dddddd;
 	--slider-bg-before: #fff;
-	--slider-input-bg: #8758ff;
+	--slider-input-bg: #36cbffff;
 }
 
 [data-theme="light"] {
@@ -53,7 +53,7 @@
 	--block-quote-text: #222;
 	--slider-bg: #dddddd;
 	--slider-bg-before: #fff;
-	--slider-input-bg: #8758ff;
+	--slider-input-bg: #36cbffff;
   }
   
   [data-theme="dark"] {
