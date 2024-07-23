@@ -10,8 +10,10 @@ export const languages = {
       'nav.home': 'Home',
       'nav.about': 'About',
       'nav.blog': 'Blog',
+      'nav.games': 'Games'
     },
     es: {
       'nav.about': 'Sobre nosotros',
+      'nav.games': 'Juegos'
     },
   } as const;
