@@ -140,7 +140,7 @@ const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) ==
 					{
 						posts.filter(post => post.data.section === 'game').map((post) => (
 						<li>
-							<a href={`/${post.slug}/`} class="container">
+							<a href={`/${post.slug}/`} class="container local-link">
 								<img width={720} height={360} src={post.data.heroImage} alt="" />
 								<div class="centered">
 									<h4 class="title">{post.data.title}</h4>

@@ -4,7 +4,7 @@ import "/node_modules/flag-icons/css/flag-icons.min.css";
 ---
 <ul class="lang-list">
   {Object.entries(languages).map(([lang]) => (
-       <a href={`/${lang}/`}><span class={`fi fi-${lang}`}></span></a>
+       <a class="local-link" href={`/${lang}/`}><span class={`fi fi-${lang}`}></span></a>
   ))}
 </ul>
 

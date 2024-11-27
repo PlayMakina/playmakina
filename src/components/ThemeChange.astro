@@ -153,17 +153,31 @@ input:checked + .slider .feather-sun {
         }
       }      
     }
+    else {
+      //Get the param "theme" from the url to see if it's dark
+      const searchParams = new URLSearchParams(window.location.search);
+      if (searchParams.get("theme") === "dark" ){
+        // Set the body data-theme attribute to match the local storage item
+        document.documentElement.setAttribute("data-theme", "dark");
+        // Check the theme toggle
+        themeToggle.checked = true;
+        // Append parameter theme=dark to all local links.
+        appendParameterToLinks('local-link', 'theme', 'dark');  // Add a variable to all local links theme=dark
+      }
+    }
     
     // Function that will switch the theme based on the if the theme toggle is checked or not
     function switchTheme(e) {
       if (e.target.checked) {
-        document.documentElement.setAttribute("data-theme", "dark");
+        document.documentElement.setAttribute("data-theme", "dark");  //Change css colors to dark
+        appendParameterToLinks('local-link', 'theme', 'dark');  // Add a variable to all local links theme=dark
         if(localStorageEnabled){
           localStorage.setItem("theme", "dark");
         }
         //document.getElementById("title-img").src="/title-dark.png";
       } else {
-        document.documentElement.setAttribute("data-theme", "light");
+        document.documentElement.setAttribute("data-theme", "light");  //Change css colors to light
+        appendParameterToLinks('local-link', 'theme', 'light');  // Add a variable to all local links theme=light
         if(localStorageEnabled){
           localStorage.setItem("theme", "light");
         }
@@ -174,4 +188,20 @@ input:checked + .slider .feather-sun {
     // Add an event listener to the theme toggle, which will switch the theme
     themeToggle.addEventListener("change", switchTheme, false);
 
+    function appendParameterToLinks(className, paramName, paramValue) {
+      const links = document.querySelectorAll(`.${className}`);
+      
+      links.forEach(link => {
+        let href = link.href;
+        
+        // Function to parse and rebuild the URL
+        function updateURL(url, param, value) {
+          const urlObj = new URL(url);
+          urlObj.searchParams.set(param, value);
+          return urlObj.href;
+        }        
+        link.href = updateURL(href, paramName, paramValue);
+
+    });
+  }
 </script>
