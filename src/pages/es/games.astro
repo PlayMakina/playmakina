@@ -20,7 +20,7 @@ const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) ==
 <html lang="es">
 	<head>
 		<SEO
-			title="Gameplays makineros"
+			title="Juegos makineros"
 			description="Juegos desarrollados con amor por PLAY MAKINA. Incluye una cita motivacional al final de cada post."
 			openGraph={{
 				basic: {
@@ -99,6 +99,7 @@ const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) ==
 			.container {
 				position: relative;
   				text-align: center;
+				max-width: 100%;
 			}
 			/* Centered text */
 			.centered {

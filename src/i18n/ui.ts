@@ -10,10 +10,12 @@ export const languages = {
       'nav.home': 'Home',
       'nav.about': 'About',
       'nav.blog': 'Blog',
-      'nav.games': 'Games'
+      'nav.games': 'Games',
+      'nav.howtos': 'How-tos'
     },
     es: {
-      'nav.about': 'Sobre nosotros',
+      'nav.about': 'Nosotros',
+      'nav.howtos': 'Tutoriales',
       'nav.games': 'Juegos'
     },
   } as const;

@@ -20,8 +20,8 @@ const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) ==
 <html lang="es">
 	<head>
 		<SEO
-			title="Gameplays makineros"
-			description="Gameplays makineros épicos con un tono desenfadado en cada juego. Incluye una cita motivacional al final de cada post."
+			title="Tutoriales makineros"
+			description="Aprende a programar como un PRO. Incluye una cita motivacional al final de cada post."
 			openGraph={{
 				basic: {
 				title: "Play Makina",
@@ -42,7 +42,7 @@ const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) ==
 					content: "https://www.playmakina.com/logo-PM.jpg",
 				},
 				{ name: "twitter:title", content: "playmakina" },
-				{ name: "twitter:description", content: "Desarrollador de videojuegos indie - gameplays" },
+				{ name: "twitter:description", content: "Desarrollador de videojuegos indie - Tutoriales" },
 				],
 			}}
 		/>
@@ -139,7 +139,7 @@ const posts = (await getCollection('blog')).filter(a => a.slug.substring(0,2) ==
 			<section>
 				<ul>
 					{
-						posts.filter(post => post.data.section === 'gameplay').map((post) => (
+						posts.filter(post => post.data.section === 'howto').map((post) => (
 						<li>
 							<a href={`/${post.slug}/`} class="container local-link">
 								<img width={720} height={360} src={post.data.heroImage} alt="" />
