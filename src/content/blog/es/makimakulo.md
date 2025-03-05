@@ -1,6 +1,6 @@
 ---
-title: '"Secret game name"'
-description: 'Our first game Teaser'
+title: '"Maki Makulo"'
+description: 'Juego de plataformas & aventuras para gameboy diseñado por un niño de 6 años.'
 pubDate: 'Jul 23 2024'
 heroImage: '/blog-post14.jpg'
 section: 'game'
@@ -24,41 +24,42 @@ section: 'game'
 
 </style>
 
-##### *(Release date of demo version: End of March 2025)*
+##### Juego de plataformas & aventuras para gameboy diseñado por un niño de 6 años.
+&nbsp; 
+*(Lanzamiento de versión demo: Finales de Marzo 2025)*
 
+##### EL JUEGO
 
-##### THE GAME
+&nbsp;&nbsp;&nbsp;En esta inmersiva aventura de semi-plataformas para gameboy, nuestro protagonista tiene que rescatar a sus queridos amigos del malvado control mental de un temible ente misterioso.
 
-&nbsp;&nbsp;&nbsp;In this immersive semi-platform adventure for game boy, our main character must rescue his beloved friends from the frightening mind control of an evil creature.
+Tras cada rescate, nuestro amigo nos prestará parte de sus poderes, que podremos utilizar en las siguientes misiones.
 
-After each rescue, our friend will lend us his powers, so that we are able to use them in the following missions.
+Moviéndonos entre niveles con nuestro confiable coche deportivo y repartiendo hostias como panes, tendremos que abrirnos paso entre los secuaces de nuestro archienemigo.
 
-Our reliable sport car will bring us to each mission, where our time to kick some ass will begin by defeating all of our arch-enemy minions.
+¿Quién es la chica de tez verde que nos guía? ¿Por qué parece saberlo todo de antemano? ¿Debemos seguir sus indicaciones?
 
-Who is the girl with green skin that guides us? Why does she seem to know everything beforehand? Should we trust her?
+Todas estas preguntas tendrán una respuesta a su debido tiempo.
 
-All of these questions will be answered in due course.
+##### LA MÚSICA
 
-##### THE MUSIC
+&nbsp;&nbsp;&nbsp;Todo esto transcurre mientras escuchamos como banda sonora la adaptación a sonidos de gameboy de la mejor música jamás compuesta por el ser humano, la música que escuchan los dioses mientras observan la inmensidad del universo: &nbsp;**MÚSICA CLÁSICA**
 
-&nbsp;&nbsp;&nbsp;The soundtrack of this game is a gameboy remastered version of the best kind of music ever composed by a human being, the kind of music gods listen to when they are observing the hugeness of the universe: &nbsp;**CLASSICAL MUSIC**.
+Esta banda sonora explotará la cabeza de nuestros jugadores más jóvenes, pues sin darse cuenta se verán tarareando temazos de Ravel, Albeniz, Strauss.. Entre otros grandes.
 
-The soundtrack will make the head of our younger players explode, as before they notice, they will be humming great hits from Ravel, Albeniz, Strauss.. and other great composers.
+##### CRÉDITOS
+- Diseñador general & historia: &nbsp;&nbsp;***Mi hijo de 6 años***
+- Programación, Música & Arte: &nbsp;***Play Makina***
 
-##### CREDITS
-- Main designer, story: &nbsp;***My 6 years old child***
-- Coding, music & Art: &nbsp;***Play Makina***
-
-##### I WANT TO PLAY IT!
-&nbsp;&nbsp;&nbsp;This game is under development, we are working hard &#128170; to complete it. Meanwhile, you can watch our first teaser here!
-<a href="https://www.youtube.com/watch?v=fUFzv7FH17I" target="_blank">YouTube</a>
+##### ¡QUIERO VERLO YA!
+&nbsp;&nbsp;&nbsp;Este juego está en desarrollo, mientras trabajamos duro &#128170; para terminarlo puedes ver nuestro primer teaser aquí:
+<a href="https://youtu.be/m0oHJCqFyaE" target="_blank">YouTube</a>
 
 <video width="100%" controls preload="none">
-  <source src="https://www.playmakina.com/Teaser-01-EN-WEBM-680.webm" type='video/webm; codecs="vp9, opus"'>
-  <a href="https://www.youtube.com/watch?v=fUFzv7FH17I" target="_blank">YouTube</a>
+  <source src="https://www.playmakina.com/Teaser-01-SP-WEBM-680.webm" type='video/webm; codecs="vp9, opus"'>
+  <a href="https://youtu.be/m0oHJCqFyaE" target="_blank">YouTube</a>
 </video>
 
-Follow us on social networks so that you do not miss the release date:
+Síguenos en redes para enterarte del lanzamiento: 
 
 <div class="social-links">
 <a href="https://www.youtube.com/@playmakina" target="_blank">
@@ -143,15 +144,15 @@ Follow us on social networks so that you do not miss the release date:
 </div>
 
 
-##### SPECIAL THANKS TO..
-- **The Main designer's mum:** &nbsp;*For taking care of him while I am coding.*
-- **<a href="https://www.retrogameshop.es" target="_blank">Retro Game Shop</a>**: &nbsp;*For your physical help :)*
-- **<a href="https://www.aslicazorlamilla.com" target="_blank">Aslı</a> & <a href="https://www.proyectoredespdj.com" target="_blank">RedesPDJ</a>**: &nbsp;*For your invaluable marketing advice*
-- **<a href="https://pixelblack.es" target="_blank">Pixel Black</a> & <a href="https://www.dgmind.com" target="_blank">Digital Mind</a>**: &nbsp;*For bringing me back to developing video games*
-- **My family & close friends**: *For your unconditional support and for being the best alpha testers.*
+##### AGRADECIMIENTO ESPECIAL A..
+- **La madre del diseñador general:** &nbsp;*Por cuidarle mientras yo programo.*
+- **<a href="https://www.retrogameshop.es" target="_blank">Retro Game Shop</a>**: &nbsp;*Por tu ayuda física :)*
+- **<a href="https://www.aslicazorlamilla.com" target="_blank">Aslı</a> & <a href="https://www.proyectoredespdj.com" target="_blank">RedesPDJ</a>**: &nbsp;*Por sus invaluables consejos de marketing*
+- **<a href="https://pixelblack.es" target="_blank">Pixel Black</a> & <a href="https://www.dgmind.com" target="_blank">Digital Mind</a>**: &nbsp;*Por traerme de vuelta al mundo de los videojuegos.*
+- **Mi familia & amigos cercanos**: *Por vuestro apoyo incondicional y ser los mejores alfa testers.*
 
 &nbsp;
 
-**Do not stop the party!**
+**¡Que no pare la fiesta!**
 
-> ###### "Genius begins great works; labor alone finishes them."
+> ###### "Las grandes obras las comienza el genio, pero solo el trabajo las acaba"

@@ -5,7 +5,13 @@ import sitemap from '@astrojs/sitemap';
 import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
+
 export default defineConfig({
   site: 'https://playmakina.com',
-  integrations: [mdx(), sitemap(), tailwind()]
+  integrations: [mdx(), sitemap(), tailwind()],
+  redirects: {
+    '/en/post-2024-07-24/': '/en/makimakulo/',
+    '/es/post-2024-07-24/': '/es/makimakulo/'
+  }
+
 });
