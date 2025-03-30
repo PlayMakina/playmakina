@@ -26,6 +26,8 @@ section: 'game'
 
 ##### Juego de plataformas & aventuras para gameboy diseñado por un niño de 6 años.
 
+Juega la demo aquí: **<a href="https://playmakina.itch.io/maki-makulo" target="_blank">itch.io</a>**
+
 ##### EL JUEGO
 
 &nbsp;&nbsp;&nbsp;En esta inmersiva aventura de plataformas y aventuras para GameBoy, nuestro protagonista tiene que rescatar a sus queridos amigos del malvado control mental de un temible ente misterioso.

@@ -26,6 +26,8 @@ section: 'game'
 
 ##### Platformer & Adventure game for gameboy designed by a 7-year-old child.
 
+Play the demo here: **<a href="https://playmakina.itch.io/maki-makulo" target="_blank">itch.io</a>**
+
 ##### THE GAME
 
 &nbsp;&nbsp;&nbsp;In this immersive platform & adventure for Game Boy, our main character must rescue his beloved friends from the frightening mind control of an evil creature.
