@@ -25,16 +25,23 @@ section: 'game'
 </style>
 
 ##### Juego de plataformas & aventuras para gameboy diseñado por un niño de 6 años.
-&nbsp; 
-*(Lanzamiento de versión demo: Finales de Marzo 2025)*
 
 ##### EL JUEGO
 
-&nbsp;&nbsp;&nbsp;En esta inmersiva aventura de semi-plataformas para gameboy, nuestro protagonista tiene que rescatar a sus queridos amigos del malvado control mental de un temible ente misterioso.
+&nbsp;&nbsp;&nbsp;En esta inmersiva aventura de plataformas y aventuras para GameBoy, nuestro protagonista tiene que rescatar a sus queridos amigos del malvado control mental de un temible ente misterioso.
 
-Tras cada rescate, nuestro amigo nos prestará parte de sus poderes, que podremos utilizar en las siguientes misiones.
+Maki Makulo se ha diseñado teniendo a los jugadores adultos y niños en mente:
 
-Moviéndonos entre niveles con nuestro confiable coche deportivo y repartiendo hostias como panes, tendremos que abrirnos paso entre los secuaces de nuestro archienemigo.
+##### "He hecho este juego con un único objetivo: Un juego que mi hijo de 7 años pueda jugar y divertirse como un niño. Pero con una profundidad que seguramente sólo será capaz de entender cuando sea un adulto." - *PLAY MAKINA*
+
+&nbsp;
+
+- Una historia cautivadora llena de valores y enseñanzas que te motivará a seguir avanzando en la trama.
+- Todos los textos están en mayúscula, para ayudar a los lectores más pequeños que están en las primeras etapas del aprendizaje de la lectura.
+- Morir no duele; muchísimos puntos de control, no hay vidas, respawn rápido... todo esto mientras se mantiene una dificultad desafiante. Porque la vida es dura, pero aprendemos equivocándonos. Equivocarse es la clave del el éxito.
+- Cinemáticas omitibles y textos desactibables. En caso de que quieras una partida rápida.
+- Tras cada rescate, nuestro amigo nos prestará parte de sus poderes, que podremos utilizar en las siguientes misiones.
+- Moviéndonos entre niveles con nuestro confiable coche deportivo y repartiendo hostias como panes, tendremos que abrirnos paso entre los secuaces de nuestro archienemigo.
 
 ¿Quién es la chica de tez verde que nos guía? ¿Por qué parece saberlo todo de antemano? ¿Debemos seguir sus indicaciones?
 
@@ -50,14 +57,16 @@ Esta banda sonora explotará la cabeza de nuestros jugadores más jóvenes, pues
 - Diseñador general & historia: &nbsp;&nbsp;***Mi hijo de 6 años***
 - Programación, Música & Arte: &nbsp;***Play Makina***
 
-##### ¡QUIERO VERLO YA!
-&nbsp;&nbsp;&nbsp;Este juego está en desarrollo, mientras trabajamos duro &#128170; para terminarlo puedes ver nuestro primer teaser aquí:
-<a href="https://youtu.be/m0oHJCqFyaE" target="_blank">YouTube</a>
+##### ¡QUIERO JUGARLO YA!
+&nbsp;&nbsp;&nbsp;Puedes jugar la versión demo de Maki Makulo gratis aquí:
+**<a href="https://playmakina.itch.io/maki-makulo" target="_blank">itch.io</a>**
 
-<video width="100%" controls preload="none">
-  <source src="https://www.playmakina.com/Teaser-01-SP-WEBM-680.webm" type='video/webm; codecs="vp9, opus"'>
-  <a href="https://youtu.be/m0oHJCqFyaE" target="_blank">YouTube</a>
-</video>
+
+Por favor déjanos tu opinión; nos ayudará muchísimo a continuar mejorando la versión final.
+
+La versión completa del juego está actualmente en desarrollo, estamos trabajando duro &#128170; para terminarla.
+
+&nbsp; 
 
 Síguenos en redes para enterarte del lanzamiento: 
 

@@ -1,6 +1,6 @@
 ---
 title: '"Maki Makulo"'
-description: 'Platformer & Adventure game for GameBoy designed by a 6 years old child.'
+description: 'Juego de plataformas & aventuras para gameboy diseñado por un niño de 6 años.'
 pubDate: 'Jul 23 2024'
 heroImage: '/blog-post14.jpg'
 section: 'game'
@@ -24,52 +24,49 @@ section: 'game'
 
 </style>
 
-##### Platformer & Adventure game for gameboy designed by a 7-year-old child.
+##### Cómo se hizo #1.
 
-##### THE GAME
+##### EL JUEGO
 
-&nbsp;&nbsp;&nbsp;In this immersive platform & adventure for Game Boy, our main character must rescue his beloved friends from the frightening mind control of an evil creature.
+&nbsp;&nbsp;&nbsp;En esta inmersiva aventura de plataformas y aventuras para GameBoy, nuestro protagonista tiene que rescatar a sus queridos amigos del malvado control mental de un temible ente misterioso.
 
-Maki Makulo is designed having adults and children players in mind:
+Maki Makulo se ha diseñado teniendo a los jugadores adultos y niños en mente:
 
-##### "I made this game with just one goal: A game that my now 7-year-old child can play and have fun as a kid. But with a depth that he will probably only understand when he is an adult." - *PLAY MAKINA*
+##### "He hecho este juego con un único objetivo: Un juego que mi hijo de 7 años pueda jugar y divertirse como un niño. Pero con una profundidad que seguramente sólo será capaz de entender cuando sea un adulto." - *PLAY MAKINA*
 
 &nbsp;
 
-- A captivating story full of values & teachings will push you to advance through the storyline.
-- All texts are in UPPER-CASE to help kids who are in the early stages of learning how to read.
-- Dying does not hurt; plenty of checkpoints, no lives, quick respawn... while having a challenging gameplay. Because life is hard, but we learn from failing. Failing is the key to success.
-- Cutscenes are skippable, and texts can be disabled. In case you want to have a quick play.
-- After each rescue, our friend can lend us his powers so that we can use them in the following missions.
-- Our reliable sports car will bring us to each mission, where our time to kick some ass will begin by defeating all of our arch-enemy minions.
+- Una historia cautivadora llena de valores y enseñanzas que te motivará a seguir avanzando en la trama.
+- Todos los textos están en mayúscula, para ayudar a los lectores más pequeños que están en las primeras etapas del aprendizaje de la lectura.
+- Morir no duele; muchísimos puntos de control, no hay vidas, respawn rápido... todo esto mientras se mantiene una dificultad desafiante. Porque la vida es dura, pero aprendemos equivocándonos. Equivocarse es la clave del el éxito.
+- Cinemáticas omitibles y textos desactibables. En caso de que quieras una partida rápida.
+- Tras cada rescate, nuestro amigo nos prestará parte de sus poderes, que podremos utilizar en las siguientes misiones.
+- Moviéndonos entre niveles con nuestro confiable coche deportivo y repartiendo hostias como panes, tendremos que abrirnos paso entre los secuaces de nuestro archienemigo.
 
+¿Quién es la chica de tez verde que nos guía? ¿Por qué parece saberlo todo de antemano? ¿Debemos seguir sus indicaciones?
 
-Who is the girl with green skin that guides us? Why does she seem to know everything beforehand? Should we trust her?
+Todas estas preguntas tendrán una respuesta a su debido tiempo.
 
-All of these questions will be answered in due course.
+##### LA MÚSICA
 
-##### THE MUSIC
+&nbsp;&nbsp;&nbsp;Todo esto transcurre mientras escuchamos como banda sonora la adaptación a sonidos de gameboy de la mejor música jamás compuesta por el ser humano, la música que escuchan los dioses mientras observan la inmensidad del universo: &nbsp;**MÚSICA CLÁSICA**
 
-&nbsp;&nbsp;&nbsp;The soundtrack of this game is a gameboy remastered version of the best kind of music ever composed by a human being, the kind of music gods listen to when they are observing the hugeness of the universe: &nbsp;**CLASSICAL MUSIC**.
+Esta banda sonora explotará la cabeza de nuestros jugadores más jóvenes, pues sin darse cuenta se verán tarareando temazos de Ravel, Albeniz, Strauss.. Entre otros grandes.
 
-The soundtrack will make the head of our younger players explode, as before they notice, they will be humming great hits from Ravel, Albeniz, Strauss.. and other great composers.
+##### CRÉDITOS
+- Diseñador general & historia: &nbsp;&nbsp;***Mi hijo de 6 años***
+- Programación, Música & Arte: &nbsp;***Play Makina***
 
-##### CREDITS
-- Main designer, story: &nbsp;***My 6 years old child***
-- Coding, music & Art: &nbsp;***Play Makina***
+##### ¡QUIERO JUGARLO YA!
+&nbsp;&nbsp;&nbsp;Puedes jugar la versión demo de Maki Makulo gratis aquí:
 
-##### I WANT TO PLAY IT!
-&nbsp;&nbsp;&nbsp;You can play the demo version of Maki Makulo for free here:
-**<a href="https://playmakina.itch.io/maki-makulo" target="_blank">itch.io</a>**
+Por favor déjanos tu opinión; nos ayudará muchísimo a continuar mejorando la versión final.
 
-Please leave us some feedback; it will help us massively to continue improving the full version.
-
-The full version is currently under development; we are working hard &#128170; to complete it.
+La versión completa del juego está actualmente en desarrollo, estamos trabajando duro &#128170; para terminarla.
 
 &nbsp; 
 
-
-Follow us on social networks so that you do not miss the release date:
+Síguenos en redes para enterarte del lanzamiento: 
 
 <div class="social-links">
 <a href="https://www.youtube.com/@playmakina" target="_blank">
@@ -154,15 +151,15 @@ Follow us on social networks so that you do not miss the release date:
 </div>
 
 
-##### SPECIAL THANKS TO..
-- **The Main designer's mum:** &nbsp;*For taking care of him while I am coding.*
-- **<a href="https://www.retrogameshop.es" target="_blank">Retro Game Shop</a>**: &nbsp;*For your physical help :)*
-- **<a href="https://www.aslicazorlamilla.com" target="_blank">Aslı</a> & <a href="https://www.proyectoredespdj.com" target="_blank">RedesPDJ</a>**: &nbsp;*For your invaluable marketing advice*
-- **<a href="https://pixelblack.es" target="_blank">Pixel Black</a> & <a href="https://www.dgmind.com" target="_blank">Digital Mind</a>**: &nbsp;*For bringing me back to developing video games*
-- **My family & close friends**: *For your unconditional support and for being the best alpha testers.*
+##### AGRADECIMIENTO ESPECIAL A..
+- **La madre del diseñador general:** &nbsp;*Por cuidarle mientras yo programo.*
+- **<a href="https://www.retrogameshop.es" target="_blank">Retro Game Shop</a>**: &nbsp;*Por tu ayuda física :)*
+- **<a href="https://www.aslicazorlamilla.com" target="_blank">Aslı</a> & <a href="https://www.proyectoredespdj.com" target="_blank">RedesPDJ</a>**: &nbsp;*Por sus invaluables consejos de marketing*
+- **<a href="https://pixelblack.es" target="_blank">Pixel Black</a> & <a href="https://www.dgmind.com" target="_blank">Digital Mind</a>**: &nbsp;*Por traerme de vuelta al mundo de los videojuegos.*
+- **Mi familia & amigos cercanos**: *Por vuestro apoyo incondicional y ser los mejores alfa testers.*
 
 &nbsp;
 
-**Do not stop the party!**
+**¡Que no pare la fiesta!**
 
-> ###### "Genius begins great works; labor alone finishes them."
+> ###### "Las grandes obras las comienza el genio, pero solo el trabajo las acaba"

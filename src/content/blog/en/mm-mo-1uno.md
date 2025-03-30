@@ -24,7 +24,7 @@ section: 'game'
 
 </style>
 
-##### Platformer & Adventure game for gameboy designed by a 7-year-old child.
+##### Making off #1.
 
 ##### THE GAME
 
@@ -60,7 +60,6 @@ The soundtrack will make the head of our younger players explode, as before they
 
 ##### I WANT TO PLAY IT!
 &nbsp;&nbsp;&nbsp;You can play the demo version of Maki Makulo for free here:
-**<a href="https://playmakina.itch.io/maki-makulo" target="_blank">itch.io</a>**
 
 Please leave us some feedback; it will help us massively to continue improving the full version.
 
