@@ -41,7 +41,7 @@ Te recomiendo que escuches esta obra maestra compuesta por George Gershwin. Nept
 
 La Neptuna del mundo real es una muy inteligente niña pequeña que te aventajará si la subestimas. Tiene un corazón enorme en su interior y unos valores fortísimos que nunca romperá.
 
-Por esta razón, quería que su pelea fuese un gran reto. Cuando la enfrentas, sus movimientos serán dependientes de los tuyos, igual en la vida real. Tu única oportunidad será primero analizarla para encontrar sus puntos débiles, los cuales son muy pocos, y moverte solo cuando deje una apertura en sus posiciones.
+Por esta razón, quería que su pelea fuese un gran reto. Cuando la enfrentas, sus movimientos serán dependientes de los tuyos, igual que en la vida real. Tu única oportunidad será primero analizarla para encontrar sus puntos débiles, los cuales son muy pocos, y moverte solo cuando deje una apertura en sus posiciones.
 <p align="center">
     <img src="https://www.playmakina.com/mm-mo-1uno-1.jpg" />
 </p>
