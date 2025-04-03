@@ -57,7 +57,7 @@ All of these questions will be answered in due course.
 The soundtrack will make the head of our younger players explode, as before they notice, they will be humming great hits from Ravel, Albeniz, Strauss.. and other great composers.
 
 ##### CREDITS
-- Main designer, story: &nbsp;***My 6 years old child***
+- Main designer, story: &nbsp;***My 7-year-old child***
 - Coding, music & Art: &nbsp;***Play Makina***
 
 ##### I WANT TO PLAY IT!

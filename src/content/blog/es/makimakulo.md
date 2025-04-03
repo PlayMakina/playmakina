@@ -56,7 +56,7 @@ Todas estas preguntas tendrán una respuesta a su debido tiempo.
 Esta banda sonora explotará la cabeza de nuestros jugadores más jóvenes, pues sin darse cuenta se verán tarareando temazos de Ravel, Albeniz, Strauss.. Entre otros grandes.
 
 ##### CRÉDITOS
-- Diseñador general & historia: &nbsp;&nbsp;***Mi hijo de 6 años***
+- Diseñador general & historia: &nbsp;&nbsp;***Mi hijo de 7 años***
 - Programación, Música & Arte: &nbsp;***Play Makina***
 
 ##### ¡QUIERO JUGARLO YA!
