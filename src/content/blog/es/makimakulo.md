@@ -1,6 +1,6 @@
 ---
 title: '"Maki Makulo"'
-description: 'Juego de plataformas & aventuras para gameboy diseñado por un niño de 6 años.'
+description: 'Juego de plataformas & aventuras para gameboy diseñado por un niño de 7 años.'
 pubDate: 'Jul 23 2024'
 heroImage: '/blog-post14.jpg'
 section: 'game'
