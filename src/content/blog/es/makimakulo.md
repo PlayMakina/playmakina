@@ -30,7 +30,7 @@ Juega la demo aquí: **<a href="https://playmakina.itch.io/maki-makulo" target="
 
 ##### EL JUEGO
 
-&nbsp;&nbsp;&nbsp;En esta inmersiva aventura de plataformas y aventuras para GameBoy, nuestro protagonista tiene que rescatar a sus queridos amigos del malvado control mental de un temible ente misterioso.
+&nbsp;&nbsp;&nbsp;En esta inmersiva aventura de plataformas para GameBoy, nuestro protagonista tiene que rescatar a sus queridos amigos del malvado control mental de un temible ente misterioso.
 
 Maki Makulo se ha diseñado teniendo a los jugadores adultos y niños en mente:
 
