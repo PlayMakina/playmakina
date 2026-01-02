@@ -41,7 +41,7 @@ footer {
 	margin-bottom: 0px !important;
 }
 .landing-logo {
-	max-width: 80%
+	max-width: 100%
 }
 .social-links a {
 	text-decoration: none;
@@ -53,7 +53,7 @@ footer {
 </style>
 
 <p align="center">
-    <img class="landing-logo" src="https://www.playmakina.com/playmakina-logo.png" />
+    <img id="landing-logo-id" class="landing-logo" src="https://www.playmakina.com/playmakina-logo.webp" />
 	<b style="white-space: pre-line">DESARROLLADOR DE
 	VIDEOJUEGOS</b>
 </p>
@@ -139,3 +139,23 @@ footer {
 			</svg>
 		</a>
 </div>
+
+<script>
+
+	function support_format_webp(){
+		var elem = document.createElement('canvas');
+		if (!!(elem.getContext && elem.getContext('2d'))){
+			// was able or not to get WebP representation
+			return elem.toDataURL('image/webp').indexOf('data:image/webp') == 0;
+		}
+		else{
+			// very old browser like IE 8, canvas not supported
+			return false;
+		}
+	}
+	
+if(!support_format_webp()){
+	document.getElementById("landing-logo-id").src="https://www.playmakina.com/playmakina-logo.png";
+}
+
+</script>
