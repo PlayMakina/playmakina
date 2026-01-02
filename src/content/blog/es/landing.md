@@ -64,7 +64,7 @@ footer {
     border-radius: 2rem;
 }
 .btn-primary:hover{
-    color: var(--white);
+    color: var(--white) !important;
     background-color: rgb(var(--gray-dark));
     border-color: var(--gray-light);
 }	
