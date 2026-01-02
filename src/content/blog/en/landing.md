@@ -40,9 +40,6 @@ footer {
 .social-links {
 	margin-bottom: 0px !important;
 }
-.landing-logo {
-	max-width: 100%
-}
 .social-links a {
 	text-decoration: none;
 }
