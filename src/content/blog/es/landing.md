@@ -51,7 +51,7 @@ footer {
     cursor: pointer;
 }
 .btn {
-	width:300px;
+	width:96%;
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -72,6 +72,9 @@ footer {
     color: var(--white);
     background-color: var(--accent);
     border-color: var(--accent-light);
+}
+#play-button{
+	margin-bottom: 0.5em;
 }
 </style>
 
@@ -153,6 +156,10 @@ footer {
 	<a id="play-button" class="btn btn-primary" href="https://playmakina.itch.io/maki-makulo" target="_blank">
 		Juega nuestros juegos
 	</a>
+	<a class="btn btn-primary" href="https://www.playmakina.com/es/makimakulo/" target="_blank">
+		Blog
+	</a>
+
 </div>
 
 
