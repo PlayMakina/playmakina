@@ -53,7 +53,7 @@ footer {
 </style>
 
 <p align="center">
-    <img class="landing-logo" src="http://localhost:4321/playmakina-logo.png" />
+    <img class="landing-logo" src="https://www.playmakina.com/playmakina-logo.png" />
 	<b style="white-space: pre-line">DESARROLLADOR DE
 	VIDEOJUEGOS</b>
 </p>
