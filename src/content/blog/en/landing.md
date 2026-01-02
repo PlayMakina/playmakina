@@ -76,6 +76,41 @@ footer {
 #play-button{
 	margin-bottom: 0.5em;
 }
+#youtube-logo{
+	color:#ff0000;
+}
+#youtube-logo:hover{
+	color: rgb(var(--gray-dark));
+}
+
+#instagram-logo{
+	color:#e1306c;
+}
+#instagram-logo:hover{
+	color: rgb(var(--gray-dark));
+}
+
+#x-logo{
+	color:var(--black);
+}
+#x-logo:hover{
+	color:gray;
+}
+
+#facebook-logo{
+	color:#1877f2;
+}
+#facebook-logo:hover{
+	color: rgb(var(--gray-dark));
+}
+
+#mastodon-logo{
+	color:#563ACC;
+}
+#mastodon-logo:hover{
+	color: rgb(var(--gray-dark));
+}
+
 </style>
 
 <div align="center">
@@ -83,7 +118,7 @@ footer {
 	<b style="white-space: pre-line">INDIE VIDEO GAME 
 	DEVELOPER</b>
 	<div class="social-links">
-		<a href="https://www.youtube.com/@playmakina" target="_blank">
+		<a id="youtube-logo" href="https://www.youtube.com/@playmakina" target="_blank">
 			<span class="sr-only">Follow us on Youtube</span>
 			<svg viewBox="0 0 24 24" 
 				aria-hidden="true"
@@ -96,7 +131,7 @@ footer {
 				</path>
 			</svg>
 		</a>
-		<a href="https://www.instagram.com/playmakina/" target="_blank">
+		<a id="instagram-logo" href="https://www.instagram.com/playmakina/" target="_blank">
 			<span class="sr-only">Follow us on Instagram</span>
 			<svg
 				viewBox="0 0 24 24" 
@@ -110,7 +145,7 @@ footer {
 				</path>
 			</svg>
 		</a>
-		<a href="https://twitter.com/PlayMakina" target="_blank">
+		<a id="x-logo" href="https://twitter.com/PlayMakina" target="_blank">
 			<span class="sr-only">Follow us on X</span>
 			<svg
 				viewBox="0 0 24 24" 
@@ -124,7 +159,7 @@ footer {
 				</path>
 			</svg>
 		</a>
-		<a href="https://www.facebook.com/profile.php?id=61555671741447" target="_blank">
+		<a id="facebook-logo" href="https://www.facebook.com/profile.php?id=61555671741447" target="_blank">
 			<span class="sr-only">Follow us on Facebook</span>
 			<svg 
 				viewBox="0 0 24 24" 
@@ -138,7 +173,7 @@ footer {
 				</path>
 			</svg>
 		</a>
-		<a rel="me" href="https://mastodon.social/@playmakina" target="_blank">
+		<a id="mastodon-logo" rel="me" href="https://mastodon.social/@playmakina" target="_blank">
 			<span class="sr-only">Follow us on Mastodon</span>
 			<svg
 				viewBox="0 0 16 16"
