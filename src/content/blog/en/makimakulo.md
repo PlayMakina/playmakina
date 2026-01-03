@@ -1,6 +1,6 @@
 ---
 title: '"Maki Makulo"'
-description: 'Platformer & Adventure game for GameBoy designed by a 6 years old child.'
+description: 'Platformer & Adventure game for GameBoy designed by a 7 years old child.'
 pubDate: 'Jul 23 2024'
 heroImage: '/blog-post14.png'
 section: 'game'

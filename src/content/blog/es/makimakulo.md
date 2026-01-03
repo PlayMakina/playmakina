@@ -24,7 +24,7 @@ section: 'game'
 
 </style>
 
-##### Juego de plataformas & aventuras para gameboy diseñado por un niño de 6 años.
+##### Juego de plataformas & aventuras para gameboy diseñado por un niño de 7 años.
 
 Juega la demo aquí: **<a href="https://playmakina.itch.io/maki-makulo" target="_blank">itch.io</a>**
 
