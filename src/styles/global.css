@@ -11,6 +11,7 @@
 	--accent-gray: rgb(214, 214, 214);
 	--black: 15, 18, 25;
 	--white: white;
+	--white-t08: rgb(255,255,255,0.85);
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
 	--gray-dark: 34, 41, 57;
@@ -37,6 +38,7 @@
 	--accent-gray: #2335ff41;
 	--black: 15, 18, 25;
 	--white: white;
+	--white-t08: rgb(255,255,255,0.85);
 	--gray: 96, 115, 159;
 	--gray-light: 229, 233, 240;
 	--gray-dark: 34, 41, 57;
@@ -63,6 +65,7 @@
 	--accent-gray: rgba(54, 201, 255, 0.322);
 	--black: 256, 256, 256;
 	--white: black;
+	--white-t08: rgb(0,0,0,0.9);
 	--gray: 96, 115, 159;
 	--gray-dark: 229, 233, 240;
 	--gray-light: 34, 41, 57;

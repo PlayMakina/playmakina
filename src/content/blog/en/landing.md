@@ -26,6 +26,9 @@ section: 'landing'
     box-shadow: var(--box-shadow);
     padding-top: 6px !important;
 	width:350px !important;
+	background-image: url("http://localhost:4321/landing-background-grayscale.jpg"), radial-gradient(var(--white), var(--white), rgb(var(--black)), rgb(var(--black))), linear-gradient(to bottom, var(--accent), yellow);
+	background-color: var(--white-t08);
+	background-blend-mode: overlay;
 }
 .title {
     display: none;
@@ -110,7 +113,6 @@ footer {
 #mastodon-logo:hover{
 	color: rgb(var(--gray-dark));
 }
-
 </style>
 
 <div align="center">
