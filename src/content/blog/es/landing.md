@@ -190,11 +190,13 @@ footer {
 			</svg>
 		</a>
 	</div>
-	<a id="play-button" class="btn btn-primary" href="https://playmakina.itch.io/maki-makulo" target="_blank">
-		Juega nuestros juegos
+	<a id="play-button" class="btn btn-primary relative" href="https://playmakina.itch.io/maki-makulo" target="_blank">
+		<div class="absolute bottom-2 left-2 top-2 flex w-12 items-center justify-center">&#127918;</div>
+		<div>Juega nuestros juegos</div>
 	</a>
-	<a class="btn btn-primary" href="https://www.playmakina.com/es/makimakulo/" target="_blank">
-		Blog
+	<a class="btn btn-primary relative" href="https://www.playmakina.com/en/makimakulo/" target="_blank">
+		<div class="absolute bottom-2 left-2 top-2 flex w-12 items-center justify-center">&#9997;</div>
+		<div>Blog</div>
 	</a>
 </div>
 
